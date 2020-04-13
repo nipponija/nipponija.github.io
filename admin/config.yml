@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: nipponija/nipponija.github.io
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 collections:
