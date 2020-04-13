@@ -25,8 +25,14 @@ collections:
           displayFields: [display_name],
           searchFields: [display_name],
           valueField: "name",
-        }
+        } 
+      - { label: "Title image", name: "image", widget: "image", required: false }  
+      - { label: "Before TOC", name: "beforetoc", "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Categories", name: "categories", widget: list, required: false }
+      - { label: "Tags", name: "tags", widget: list, required: false }
+      - { label: "Comments", name: "comments", widget: boolean, default: false }
+      - { label: "Rating", name: rating", widget: number, valueType: float, min: 0, max: 5, step: 0.5}
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
