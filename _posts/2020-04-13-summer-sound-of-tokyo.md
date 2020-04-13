@@ -28,3 +28,8 @@ cicada
 Sve krošnje, svako zelenilo okupirano je ovim velikim insektima. Moj utisak je da su uveče glasnije ili bar primetnije, svaki boravak napolju proprate dominantnim oglašavanjem. Doseljavaju se nakon kišne sezone i prisutne su tokom leta. 
 
 {{< youtube cQwCOBBLXEI >}}
+
+Tokyo je miran grad, za metropolu prilično tih. Diskretno zrikanje koje je dosezalo sa ulice do našeg otvorenog prozora na 16om spratu propraćeno je emotivnim osmesima... poznat zvuk leta, nikako urban. Ovaj grad ne prestaje da iznenađuje...
+
+
+Hm...srećom se hrane samo biljnim sokovima!
