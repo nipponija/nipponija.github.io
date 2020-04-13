@@ -12,21 +12,6 @@ include: ["_pages"]
 permalink: /:title/
 email: nipponijablog@gmail.com
 
-# Authors
-authors:
-  nevena:
-    name: Nevena
-    display_name: Nevena
-    email: wowthemesnet@gmail.com
-    description: "Author of Nipponija, multi-practic. Fantastic. "
-  lazar:
-    name: Lazar
-    display_name: Lazar    
-    avatar: 'assets/images/avatar-lazar.png'
-    gravatar: bd0c35f2663a820cffe6719dbced85ed
-    email: laz.obradovic@gmail.com
-    description: "Photographer of Nipponija, traveller, diver, skiier. Not necessary in that order."
-
 # Plugins
 plugins:
   - jekyll-paginate
