@@ -7,3 +7,7 @@ image: /assets/uploads/cicada.jpg
 comments: true
 ---
 Image test
+
+{% youtube cQwCOBBLXEI %}
+
+tetet
