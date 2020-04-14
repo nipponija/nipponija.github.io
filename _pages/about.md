@@ -5,7 +5,7 @@ permalink: /about
 comments: false
 author: Nevena
 image: assets/images/screenshot.png
-imageshadow: true
+imageshadow: false
 ---
 > *''It is a dangerous business, Frodo, going out your door. You step into the road, and if you don't keep your feet, there is no knowing where you might be swept off to.''*
 
