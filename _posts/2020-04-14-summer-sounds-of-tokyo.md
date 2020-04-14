@@ -5,11 +5,11 @@ date: 2014-09-04T11:29:00.000Z
 author: "Nevena "
 image: /assets/uploads/cicada.jpg
 categories:
-  - summer
-  - living in Japan
+  - Summer
+  - Living in Japan
 tags:
-  - cicada
-  - tokyo
+  - Cicada
+  - Tokyo
 comments: true
 ---
 My earlier visits to Tokyo were in the winter days. I did not get to know the green side of the city, I used to visit parks and gardens during the dormant period of vegetation, rare tree-lined avenues blended into the winter color scheme. Walks in the business districts revealed small, neat oases next to the multi-storey building, hinting at refreshments in the summer days. Residents of many houses have confirmed the Japanese skill that they are unrivaled in scarce conditions, as they most often carefully nurture potted plants and trees, in the absence of a yard. This in no way diminished the impression of the exterior. It just seemed to me to be insufficient connection with nature from the perspective of a almost-Shumadinka…

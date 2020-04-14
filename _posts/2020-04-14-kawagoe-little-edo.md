@@ -5,8 +5,7 @@ date: 2014-09-16T20:12:00.000Z
 author: "Nevena "
 image: /assets/uploads/kawagoe-street.jpg
 categories:
-  - travelling in Japan
-  - ""
+  - Travelling in Japan
 tags:
   - Kawagoe
 comments: true
