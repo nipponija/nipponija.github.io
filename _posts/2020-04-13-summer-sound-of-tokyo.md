@@ -1,9 +1,10 @@
 ---
+rating": 4
 layout: post
 title: Summer sound of Tokyo
 date: 2014-09-04T21:27:01.351Z
 author: "Nevena "
-image: cicada.jpg
+image: /assets/uploads/cicada.jpg
 categories:
   - summer in Japan
   - living in Tokyo
@@ -13,7 +14,7 @@ tags:
   - tokyo
   - cicada
 comments: true
-rating": 4
+rating: 3.5
 ---
 Moje ranije posete Tokyu bile su u zimskim danima. Nisam upoznala zelenije lice grada, bašte i vrtove obilazila sam u periodu mirovanja vegetacije, retki neolistali drvoredi stapali su se u zimsku šemu boja. Šetnje poslovnim četvrtima otkrivale su male uredne oaze uz višespratnice, nagoveštavajući osveženje u letnjim danima. Stanari mnogobrojnih kuća potvrdjivali su japansku veštinsku da se u oskudnim uslovima ostvaruju bez premca, jer najčešce brižno neguju pripadajuću žardinjeru ili drvo, u nedostatku dvorišta. To nikako nije umanjilo impresije uređenjem eksterijera. Samo mi se činilo nedovoljnom vezom sa prirodom iz perspektive za malo pa Šumadinke… 
 
