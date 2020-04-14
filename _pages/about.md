@@ -7,6 +7,7 @@ author: Nevena
 image: assets/images/screenshot.jpg
 imageshadow: true
 ---
+> ''IT IS A DANGEROUS BUSINESS, FRODO, GOING OUT YOUR DOOR. YOU STEP INTO THE ROAD, AND IF YOU DON'T KEEP YOUR FEET, THERE IS NO KNOWING WHERE YOU MIGHT BE SWEPT OFF TO.''
 
 # 2014 - August
 
