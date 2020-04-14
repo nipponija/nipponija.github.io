@@ -9,7 +9,7 @@ collections:
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    path: ""{{slug}}""
+    path: ""{{slug}}"" # Redefined slug?
     media_folder: ''
     public_folder: ''
     editor:
