@@ -2,7 +2,7 @@
 layout: post
 title: Kawagoe - little Edo
 date: 2014-09-16T20:12:00.000Z
-author: "Nevena "
+author: Nevena
 image: /assets/uploads/kawagoe-street.jpg
 categories:
   - Travelling in Japan
