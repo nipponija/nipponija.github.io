@@ -9,14 +9,12 @@ post_class: post-template
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
     <!-- Author & Date  Box -->
-    <!-- page.author: "{{ page.author }}" -->
     {% assign author = site.authors | where: 'name', page.author | first %}
-    <!-- author: "{{ site.authors | jsonify | escape }}" -->
     {% if author %}
     <div class="d-flex align-items-center mt-4">
         <div>
             {% if author.avatar %}
-            <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+            <img class="author-thumb" src="{% if site.baseurl.size != 0 %}{{ site.baseurl }}/{% endif %}{{ author.avatar }}" alt="{{ author.display_name }}">
             {% else %}
             <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
             {% endif %}

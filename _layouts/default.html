@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{% if site.baseurl.size != 0 %}{{ site.baseurl }}/{% endif %}assets/images/logo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -69,7 +69,7 @@ ga('send', 'pageview');
     ================================================== -->
    
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <img src="{% if site.baseurl.size != 0 %}{{ site.baseurl }}/{% endif %}{{ site.logo }}" alt="{{ site.name }}">
     </a>  
    
 
@@ -91,7 +91,7 @@ ga('send', 'pageview');
     <!-- Newsletter
     ================================================== -->
     <div class="newsletter text-center">
-        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <span class="h4"><img src="{% if site.baseurl.size != 0 %}{{ site.baseurl }}/{% endif %}{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
