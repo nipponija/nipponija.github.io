@@ -1,6 +1,6 @@
 ---
 layout: author
-name: "Nevena "
+name: "Nevena"
 display_name: Nevena Obradovic
 position: Author
 email: wowthemesnet@gmail.com

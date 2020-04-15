@@ -1,6 +1,6 @@
 ---
 layout: author
-name: Lazar
+name: "Lazar"
 display_name: Lazar Obradovic
 position: Site admin
 avatar: /assets/uploads/avatar-lazar.jpeg
