@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nipponija/nipponija.github.io
+  repo: nipponija/nipponija.com
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 collections:
