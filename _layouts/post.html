@@ -9,7 +9,9 @@ post_class: post-template
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
     <!-- Author & Date  Box -->
+    <!-- page.author: "{{ page.author }}" -->
     {% assign author = site.authors | where: 'name', page.author | first %}
+    <!-- author: "{{ author }}" -->
     {% if author %}
     <div class="d-flex align-items-center mt-4">
         <div>
