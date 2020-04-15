@@ -25,7 +25,12 @@ For quite some time, we've been talking about translating original blog, written
 
 This website and page is attempt to do that in a a bit of a different, modern format.
 
-## Jekyll theme
+# Technical
 
-This website is a built on **Memoirs Jekyll theme** <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/" class="btn btn-dark"> Get Memoirs for Jekyll &rarr;</a>
+[![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-blue?style=for-the-badge)](https://jekyllrb.com/)
 
+[![Repository on GitHub](https://img.shields.io/badge/Repository%20on-GitHub-blue?style=for-the-badge)](https://github.com/nipponija/nipponija.com)
+
+[![Deployed by Netlify](https://img.shields.io/badge/Depoyed%20by-Netlify-blue?style=for-the-badge)](https://www.netlify.com/)
+
+[![Template by Bootstrap Starter](https://img.shields.io/badge/Template%20by-Bootstrap%20Starter-blue?style=for-the-badge)](https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/)
