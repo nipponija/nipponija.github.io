@@ -11,7 +11,7 @@ post_class: post-template
     <!-- Author & Date  Box -->
     <!-- page.author: "{{ page.author }}" -->
     {% assign author = site.authors | where: 'name', page.author | first %}
-    <!-- author: "{{ author }}" -->
+    <!-- author: "{{ site.authors | jsonify | escape }}" -->
     {% if author %}
     <div class="d-flex align-items-center mt-4">
         <div>
