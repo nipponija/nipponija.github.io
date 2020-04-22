@@ -20,6 +20,7 @@ $enable-rounded: false;
 // general
 body, input, button, select, optgroup, textarea {   
     font-family:Sen;
+    font-display: swap;
 }
 body {
     line-height:1.4;
@@ -65,6 +66,7 @@ blockquote {
     border-left:1px solid $dark;
     margin-left:30px;
     padding-left:15px;
+    font-display: swap;
     cite {
         font-weight:700;
     }
@@ -490,6 +492,7 @@ img, img:hover {
         padding: 2px 3px;
         width: 150px;
         font-family: Arial;
+        font-display: swap;
         text-align: center;
         border-radius: 3px;
         transition: all .4s;
