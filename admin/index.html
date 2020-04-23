@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 <!-- admin/index.html -->
 <!DOCTYPE html>
 <html>
@@ -36,6 +40,42 @@
             '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
           );
         }
+      });
+      CMS.registerEditorComponent({
+        id: 'ResponsiveImage',
+        label: 'Responsive Image',
+        pattern: /^\{\% responsive_image path: (.*?) (alt: "(.*)")? (title: "(.*"))? %\}$/,
+        fromBlock: match =>
+          match && {
+            image: match[1],
+            alt: match[3],
+            title: match[5],
+          },
+        toBlock: ({ alt, image, title }) =>
+          `{% responsive_image path: ${image || ''} ${alt ? "alt:" + ` "${alt.replace(/"/g, '\\"')}"` : ''}  ${title ? "title:" + ` "${title.replace(/"/g, '\\"')}"` : ''} %}`,
+        toPreview: ({ alt, image, title }, getAsset, fields) => {
+          const imageField = fields?.find(f => f.get('widget') === 'image');
+          const src = getAsset(image, imageField);
+          return <img src={src || ''} alt={alt || ''} title={title || ''} />;
+        },
+        fields: [
+          { 
+            label: 'Image',
+            name: 'image',
+            widget: 'image',
+            media_library: {
+              allow_multiple: false,
+            },
+          },
+          {
+            label: 'Alt Text',
+            name: 'alt',
+          },
+          {
+            label: 'Title',
+            name: 'title',
+          },
+        ],
       });
       </script>
   </body>
