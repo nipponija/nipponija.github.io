@@ -37,10 +37,12 @@
           );
         }
       });
+      </script>
+      <script>
       CMS.registerEditorComponent({
-        id: 'ResponsiveImage',
+        id: 'respimage',
         label: 'Responsive Image',
-        pattern: /^\{\% responsive_image path: (.*?) (alt: "(.*)")? (title: "(.*"))? %\}$/,
+        pattern: /^\{\% responsive_image path: (.*?) (alt: "(.*)")? (title: "(.*)")? %\}$/,
         fromBlock: match =>
           match && {
             image: match[1],
