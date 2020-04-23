@@ -42,7 +42,7 @@
       CMS.registerEditorComponent({
         id: 'respimage',
         label: 'Responsive Image',
-        pattern: /^\{\% responsive_image path: (.*?) (alt: "(.*)")? (title: "(.*)")? %\}$/,
+        pattern: /\{\% responsive_image path: (.*?)(\s+alt: ["'`](.*?)["'`])?(\s+title: ["'`](.*?)["'`])? %\}$/,
         fromBlock: match =>
           match && {
             image: match[1],
