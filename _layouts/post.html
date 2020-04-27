@@ -36,7 +36,7 @@ post_class: post-template
 {% endif %}
 
 <!-- Featured Image -->
-{% include featured-image.html %}
+{% responsive_image path: page.image template: _includes/featured-image.html %}
 
 <!-- Content -->
 {% include article.html %}
