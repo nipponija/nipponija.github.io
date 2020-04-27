@@ -38,7 +38,7 @@ post_class: post-template
 <!-- Featured Image -->
 {% if page.image %}
     {% responsive_image_block %}
-        path: {{ page.image.gsub(/^\//, "") }} 
+        path: {{ page.image }} 
         template: _includes/featured-image.html 
     {% endresponsive_image_block %}
 {% endif %}

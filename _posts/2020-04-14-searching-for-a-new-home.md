@@ -3,7 +3,7 @@ layout: post
 title: Searching for a new home
 date: 2014-09-18T20:24:00.000Z
 author: Nevena
-image: /assets/uploads/konan.jpg
+image: assets/uploads/konan.jpg
 categories:
   - Living in Japan
 tags:

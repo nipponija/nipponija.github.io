@@ -3,7 +3,7 @@ layout: post
 title: Summer sound of Tokyo
 date: 2014-09-04T11:29:00.000Z
 author: Nevena
-image: /assets/uploads/cicada.jpg
+image: assets/uploads/cicada.jpg
 categories:
   - Summer
   - Living in Japan
