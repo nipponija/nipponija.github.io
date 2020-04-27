@@ -60,12 +60,15 @@ responsive_image:
   template: _includes/responsive-image.html
   base_path: assets/uploads/
   output_path_format: assets/resized/%{width}/%{basename}
-  default_quality: 95
+  default_quality: 90
   strip: true
   sizes: 
     - width: 640
+      quality: 80
     - width: 768
+      quality: 80
     - width: 1024
+      quality: 80
     - width: 1366
     - width: 1600
     - width: 1920
