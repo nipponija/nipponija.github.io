@@ -50,7 +50,7 @@
             title: match[5],
           },
         toBlock: ({ alt, image, title }) =>
-          `{% responsive_image path: ${image || ''} ${alt ? "alt:" + ` "${alt.replace(/"/g, '\\"')}"` : ''}  ${title ? "title:" + ` "${title.replace(/"/g, '\\"')}"` : ''} %}`,
+          `{% responsive_image path: ${image || ''}${alt ? " alt: " + ` "${alt.replace(/"/g, '\\"')}"` : ''}${title ? " title: " + ` "${title.replace(/"/g, '\\"')}"` : ''} %}`,
         toPreview: ({ alt, image, title }, getAsset, fields) => {
           const imageField = fields?.find(f => f.get('widget') === 'image');
           const src = getAsset(image, imageField);
