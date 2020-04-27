@@ -36,10 +36,12 @@ post_class: post-template
 {% endif %}
 
 <!-- Featured Image -->
-{% responsive_image_block %}
-    path: {{ page.image }} 
-    template: _includes/featured-image.html 
-{% endresponsive_image_block %}
+{% if page.image %}
+    {% responsive_image_block %}
+        path: {{ page.image }} 
+        template: _includes/featured-image.html 
+    {% endresponsive_image_block %}
+{% endif %}
 
 <!-- Content -->
 {% include article.html %}
