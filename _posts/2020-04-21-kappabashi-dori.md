@@ -3,9 +3,9 @@ layout: post
 title: Kappabashi dori
 date: 2014-09-22T09:17:00.000Z
 author: Nevena
-image: /assets/uploads/kappabashi_dori_1.jpg
+image: assets/uploads/kappabashi_dori_1.jpg
 categories:
-  - Living in Tokyo
+  - Living
 tags:
   - Tokyo
   - Kappabashi-dori

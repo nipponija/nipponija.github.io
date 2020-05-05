@@ -51,14 +51,14 @@ adsense-data-ad-client: "ca-pub-7564009079906606"
 #adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "disabled"
 
 responsive_image:
   template: _includes/responsive-image.html
-  base_path: assets/uploads/
+  base_path: assets
   output_path_format: assets/resized/%{width}/%{basename}
   default_quality: 90
   strip: true

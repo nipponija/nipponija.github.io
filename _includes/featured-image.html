@@ -1,10 +1,9 @@
-{% if page.image %}
-    {% assign largest = resized | sort: 'width' | last %}
-    {% capture srcset %}
-    {% for i in resized %}
-        /{{ i.path }} {{ i.width }}w,
-    {% endfor %}
-    {% endcapture %}
+{% assign largest = resized | sort: 'width' | last %}
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
     
 <div class="entry-featured-image">
     {% if site.lazyimages == "enabled" %}
@@ -13,4 +12,3 @@
     <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="/{{ largest.path }}" alt="{{ page.title }}" srcset="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w">
     {% endif %}
 </div>
-{% endif %}
