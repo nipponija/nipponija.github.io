@@ -60,18 +60,19 @@ responsive_image:
   template: _includes/responsive-image.html
   base_path: assets
   output_path_format: assets/resized/%{width}/%{basename}
-  default_quality: 90
+  default_quality: 80
   strip: true
   sizes: 
-    - width: 640
-      quality: 80
-    - width: 768
-      quality: 80
-    - width: 1024
-      quality: 80
-    - width: 1366
-    - width: 1600
-    - width: 1920
+    - width: 350 # small front page thumb for featured image
+      quality: 60
+    - width: 640 # mobile version of images
+      quality: 70
+    - width: 730 # large front page thumb for featured images, regular post image as well
+      quality: 75
+    - width: 940 # featured image in post
+      quality: 75
+    - width: 1366 # gallery image size 1
+    - width: 1920 # gallery image size 2 
 
 # Sass
 sass:
