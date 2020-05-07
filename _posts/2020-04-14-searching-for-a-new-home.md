@@ -4,10 +4,9 @@ title: Searching for a new home
 date: 2014-09-18T20:24:00.000Z
 author: Nevena
 image: assets/uploads/konan.jpg
-categories:
-  - Living in Japan
 tags:
   - Tokyo
+  - Living in Japan
 comments: true
 ---
 In the broadest geographical sense, Tokyo metropolis, Tōkyō-to (東京 都) is frighteningly large. More than a quarter of Japan's total population resides there. The city is located in Tokyo Bay, at the mouth of the Sumida River (隅田川). It also houses 370000 foreigners. Plus the two of us ...

@@ -4,12 +4,11 @@ title: Kawagoe - little Edo
 date: 2014-09-16T20:12:00.000Z
 author: Nevena
 image: assets/uploads/kawagoe-street.jpg
-categories:
-  - Travelling
-  - History
 tags:
   - Kawagoe
   - Sweets
+  - Travelling
+  - History
 comments: true
 ---
 When  *Tokyo*  was founded in the 15th century, its original name was  *Edo*  (江 戸). From a small fortified place it developed into an important political center with the feudal government headquarters. 
