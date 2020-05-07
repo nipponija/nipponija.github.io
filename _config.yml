@@ -4,7 +4,8 @@ title: "Nipponija - Nippon and me"
 description: "Story about our life in Japan"
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/logo.png'
-baseurl: 'https://www.nipponija.com'
+url: 'https://www.nipponija.com'
+baseurl: ''
 google_analytics: 'UA-111974679-3'
 disqus: 'nipponija'
 # mailchimp-list: 'https://xxx.list-manage.com/subscribe/post?u=xxx&amp;id=xxx'
