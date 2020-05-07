@@ -3,14 +3,18 @@ backend:
   repo: nipponija/nipponija.com
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
+public_folder: 'assets/uploads'
 collections:
   - name: "blog"
     label: "Blog"
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    path: '{{slug}}/index'
     editor:
-      preview: false
+      preview: true
+    public_folder: ''
+    media_folder: ''
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
@@ -25,9 +29,7 @@ collections:
           valueField: "name",
         } 
       - { label: "Title image", name: "image", widget: "image", required: false }  
-      - { label: "Before TOC", name: "beforetoc", "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Categories", name: "categories", widget: list, required: false }
       - { label: "Tags", name: "tags", widget: list, required: false }
       - { label: "Comments", name: "comments", widget: boolean, default: true }
       - { label: "Rating", name: "rating", widget: number, required: false, valueType: float, min: 0, max: 5, step: 0.5}
