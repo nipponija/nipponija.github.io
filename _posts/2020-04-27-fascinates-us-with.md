@@ -5,9 +5,7 @@ date: 2014-09-30T09:57:00.000Z
 author: Nevena
 image: assets/uploads/old-and-new.jpg
 categories:
-  - Living
-tags:
-  - ""
+  - Living in Japan
 comments: true
 ---
 This is a little intermezzo while we're refurbishing the apartment... 

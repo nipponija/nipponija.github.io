@@ -5,7 +5,7 @@ date: 2014-09-18T20:24:00.000Z
 author: Nevena
 image: assets/uploads/konan.jpg
 categories:
-  - Living
+  - Living in Japan
 tags:
   - Tokyo
 comments: true

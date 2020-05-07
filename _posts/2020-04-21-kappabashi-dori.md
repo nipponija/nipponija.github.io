@@ -5,7 +5,7 @@ date: 2014-09-22T09:17:00.000Z
 author: Nevena
 image: assets/uploads/kappabashi_dori_1.jpg
 categories:
-  - Living
+  - Living in Japan
 tags:
   - Tokyo
   - Kappabashi-dori

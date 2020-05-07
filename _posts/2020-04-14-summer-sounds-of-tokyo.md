@@ -6,7 +6,7 @@ author: Nevena
 image: assets/uploads/cicada.jpg
 categories:
   - Summer
-  - Living
+  - Living in Japan
 tags:
   - Cicada
   - Tokyo
