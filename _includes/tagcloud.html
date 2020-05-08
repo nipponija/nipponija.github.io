@@ -8,6 +8,7 @@
 {% endfor %}
 
 <div class="d-flex justify-content-center align-items-center">
+<p>
 {% for tag in tags %}
 {% assign rel_tag_size = site.tags[tag].size | times: 4.0 | divided_by: tag_count | plus: 1 %}
 <span style="white-space: nowrap; font-size: {{ rel_tag_size }}em; padding: 0.6em;">
@@ -16,4 +17,5 @@
 </a>
 </span>          
 {% endfor %}
+</p>
 </div>
