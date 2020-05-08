@@ -66,11 +66,9 @@ responsive_image:
   sizes: 
     - width: 350 # small front page thumb for featured image
       quality: 60
-    - width: 640 # mobile version of images
+    - width: 768 # large front page thumb for featured images, regular post image as well
       quality: 70
-    - width: 730 # large front page thumb for featured images, regular post image as well
-      quality: 75
-    - width: 940 # featured image in post
+    - width: 992 # featured image in post
       quality: 75
     - width: 1366 # gallery image size 1
     - width: 1920 # gallery image size 2 
