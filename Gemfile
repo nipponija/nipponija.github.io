@@ -16,8 +16,9 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'jekyll-figure'
+    gem 'jekyll-minifier'
     gem 'jekyll-responsive-image'
     gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
-    gem 'rouge'
+    gem 'rouge' 
 end

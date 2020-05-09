@@ -21,6 +21,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-minifier
   - jekyll-responsive-image
   
 # Archives
@@ -86,3 +87,6 @@ defaults:
       path: "admin"
     values:
       sitemap: false
+
+jekyll-minifier:
+  exclude: 'atom.xml'
