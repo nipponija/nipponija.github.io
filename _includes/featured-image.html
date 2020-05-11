@@ -6,11 +6,11 @@
 {% endcapture %}
     
 <div class="entry-featured-image gallery">
-    <a href="{{ original.path}}" data-srcset="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w">
+    <a href="{{ original.path}}" data-srcset="{{ srcset | strip_newlines }}">
         {% if site.lazyimages == "enabled" %}
-        <img class="featured-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w" alt="{{ page.title }}">
+        <img class="featured-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ srcset | strip_newlines }}" alt="{{ page.title }}">
         {% else %}
-        <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="/{{ smallest.path }}" alt="{{ page.title }}" srcset="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w">
+        <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="/{{ smallest.path }}" alt="{{ page.title }}" srcset="{{ srcset | strip_newlines }}">
     {% endif %}
     </a>
 </div>

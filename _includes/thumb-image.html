@@ -6,7 +6,7 @@
 {% endcapture %}
 
 {% if site.lazyimages == "enabled" %}
-    <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w" alt="{{ post.title }}">
+    <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ srcset | strip_newlines }}" alt="{{ post.title }}">
 {% else %}
-    <img class="img-thumb" src="/{{ smallest.path }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" alt="{{ post.title }}"> 
+    <img class="img-thumb" src="/{{ smallest.path }}" srcset="{{ srcset | strip_newlines }}" alt="{{ post.title }}"> 
 {% endif %}
