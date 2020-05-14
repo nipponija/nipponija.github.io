@@ -37,11 +37,9 @@ Alley of sweets, Kashiya Yokochō, (菓子 屋 横 丁), is named after the alte
 
 ![](/assets/uploads/kawagoe-street-2.jpg)
 
-<!--page-->
-
 The Toki no Kane (時 の 鐘), a bell tower, a landmark near the street of the storage houses, is a symbol of the city. It was built in the 19th century on the site of an old tower that was destroyed by a large city fire. It rings several times a day.
 
-{% include mosaic.html layout="sidebyside" main="assets/uploads/kawagoe-street-3a.jpg" right="assets/uploads/kawagoe-street-3b.jpg" %}
+{% include mosaic.html layout="sidebyside" main="assets/uploads/kawagoe-building-3a.jpg" right="assets/uploads/kawagoe-building-3b.jpg" %}
 
 {% include mosaic.html layout="plus2" main="assets/uploads/kawagoe-jinja-1a.jpg" tr="assets/uploads/kawagoe-jinja-1b.jpg" br="assets/uploads/kawagoe-jinja-1c.jpg" %}
 
