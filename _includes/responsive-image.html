@@ -1,11 +1,11 @@
 {% assign smallest = resized | sort: 'width' | first %}
 {% capture srcset %}
 {% for i in resized %}
-    /{{ i.path }} {{ i.width }}w, 
+/{{ i.path }} {{ i.width }}w, 
 {% endfor %}
 {% endcapture %}
 
-<div class="gallery mt-2">
+<div class="gallery img-thumbnail">
 <a href="{{ original.path}}" data-srcset="{{ srcset | strip_newlines }}">
     <img src="/{{ smallest.path }}" {% if alt %} alt="{{ alt }}" {% endif %} srcset="{{ srcset | strip_newlines }}">
 </a>

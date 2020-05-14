@@ -1,0 +1,68 @@
+<!-- image mosaic -->
+{% if include.layout == "sidebyside" or include.layout == "plus2" 
+   or include.layout == "plus3" or include.layout == "on3" or include.layout == "corner" %}
+<div class="mosaic-{{include.layout}}">
+    {% if include.main %}
+    <div class="mosaic-img-main">
+        {% responsive_image_block %}
+            path: {{ include.main | strip }} 
+        {% endresponsive_image_block %}
+    </div>
+    {% endif %}
+
+    {% if include.layout == "sidebyside" %}
+        {% if include.right %}
+        <div class="mosaic-img-right">
+            {% responsive_image_block %}
+                path: {{ include.right | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %} 
+    {% endif %}
+
+    {% if include.layout == "plus2" or include.layout == "plus3" or include.layout == "corner" or include.layout == "on3" %}
+        {% if include.layout != "on3" and include.tr %}
+        <div class="mosaic-img-tr">
+            {% responsive_image_block %}
+                path: {{ include.tr | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %}
+        {% if include.br %}
+        <div class="mosaic-img-br">
+            {% responsive_image_block %}
+                path: {{ include.br | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %}
+    {% endif %}
+
+    {% if include.layout == "plus3" or include.layout == "corner" %}
+        {% if include.mr %}
+        <div class="mosaic-img-mr">
+            {% responsive_image_block %}
+                path: {{ include.mr | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %}
+    {% endif %}
+
+    {% if include.layout == "on3" or include.layout == "corner" %}
+        {% if include.bl %}
+        <div class="mosaic-img-bl">
+            {% responsive_image_block %}
+                path: {{ include.bl | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %}
+        {% if include.bc %}
+        <div class="mosaic-img-bc">
+            {% responsive_image_block %}
+                path: {{ include.bc | strip }} 
+            {% endresponsive_image_block %}
+        </div>
+        {% endif %}
+    {% endif %}
+{% endif %}    
+</div>
+<!-- end -->  
