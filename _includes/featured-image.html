@@ -4,7 +4,6 @@
     /{{ i.path }} {{ i.width }}w,
 {% endfor %}
 {% endcapture %}
-    
 <div class="entry-featured-image gallery">
     <a href="{{ original.path}}" data-srcset="{{ srcset | strip_newlines }}">
         {% if site.lazyimages == "enabled" %}

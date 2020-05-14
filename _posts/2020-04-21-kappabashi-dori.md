@@ -18,21 +18,21 @@ It is an unavoidable path for tourists, who indulge in a relaxed but colorful an
 
 Kappabashi (合 羽 橋) is an attractive street equally attractive to tourists, future and permanent residents of Tokyo. It brought together vendors and artisans, offering everything needed to equip a kitchen or start a restaurant business.
 
-![](/assets/uploads/kappabashi_dori_3.jpg)
+{% include mosaic.html layout="sidebyside" main="assets/uploads/kappabashi_dori_3a.jpg" right="assets/uploads/kappabashi_dori_3b.jpg" %}
 
 We took the day off for a tour in our need to tidy up a new home. Still, it is also a great way to learn a lot about Japanese habits, how to prepare and serve food and drink, customs and the past through multicolored pottery and antique items.
 
-![](/assets/uploads/kappabashi_dori_4.jpg)
+{% include mosaic.html layout="sidebyside" main="assets/uploads/kappabashi_dori_4a.jpg" right="assets/uploads/kappabashi_dori_4b.jpg" %}
 
 ![](/assets/uploads/kappabashi_dori_5.jpg)
 
 ![](/assets/uploads/kappabashi_dori_6.jpg)
 
-![](/assets/uploads/kappabashi_dori_7.jpg)
+{% include mosaic.html layout="sidebyside" main="assets/uploads/kappabashi_dori_7a.jpg" right="assets/uploads/kappabashi_dori_7b.jpg" %}
 
 Going to a restaurant in Tokyo generally involves taking a long tour of its window, which features photorealistic food models on the menu. This is especially true for anyone who does not speak Japanese, as the menus are usually not translated. The precision of craftsmanship and the resemblance to real food is simply fascinating.
 
-![](/assets/uploads/kappabashi_dori_8.jpg)
+{% include mosaic.html layout="sidebyside" main="assets/uploads/kappabashi_dori_8a.jpg" right="assets/uploads/kappabashi_dori_8b.jpg" %}
 
 ![](/assets/uploads/kappabashi_dori_9.jpg)
 
