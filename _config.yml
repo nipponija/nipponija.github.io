@@ -46,7 +46,6 @@ kramdown:
 collections:
   - authors
 
-
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-7564009079906606"

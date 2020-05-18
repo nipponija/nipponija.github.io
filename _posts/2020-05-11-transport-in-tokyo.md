@@ -3,7 +3,6 @@ layout: post
 title: Transport in Tokyo
 date: 2014-10-08T14:53:00.000Z
 author: Nevena
-image: assets/uploads/tokyo-subway-map-eng.jpg
 tags:
   - Tokyo
   - Transport
