@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-figure'
     gem 'jekyll-minifier'
+    gem 'jekyll-cloudinary'
     gem 'jekyll-responsive-image'
     gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
