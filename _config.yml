@@ -67,7 +67,7 @@ cloudinary:
       max_width: 1600
       fallback_max_width: 992
       steps: 6
-      sizes: "320px, (min-width: 768px) 540px, (min-width: 992px) 920px, (min-width: 1200px) 1140px, 100vw"
+      sizes: "(max-width: 576px) 540px, (max-width: 768px) 740px, (max-width: 992px) 920px, (max-width: 1200px) 1140px, 100vw"
       attributes: 
         class: img-thumb gallery 
 
