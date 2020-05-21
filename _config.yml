@@ -64,12 +64,12 @@ cloudinary:
   presets:
     default:
       min_width: 320
-      max_width: 1600
-      fallback_max_width: 992
+      max_width: 1200
+      fallback_max_width: 920
       steps: 6
       sizes: "(max-width: 576px) 540px, (max-width: 768px) 740px, (max-width: 992px) 920px, (max-width: 1200px) 1140px, 100vw"
       attributes: 
-        class: img-thumb gallery 
+        class: img-thumbnail gallery 
 
 responsive_image:
   template: _includes/responsive-image.html
