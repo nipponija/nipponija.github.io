@@ -33,7 +33,7 @@ Other details about the size of the apartment, organization, my need for some gr
 
 {% cloudinary assets/uploads/konan-2.jpg %}
 
-{% cloudinary uploads/konan-3.jpg %}
+{% cloudinary assets/uploads/konan-3.jpg %}
 
 I later read that the neighborhoods are also called Gaijin Ghettos, by their name for foreigners. These are essentially artificial settlements, designed and organized to fit the Western world and their habits. The apartments are comfortable, the buildings are packed with extras, they are tall and have an amazing view of the attractive parts of Tokyo. One such overlooking the Rainbow Bridge, completely delighted us.
 
