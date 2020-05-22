@@ -43,8 +43,6 @@ Temporary and new accommodation overlapped in just a few days, so we had to quic
 
 We are now in a new apartment. It is near Aobadai (青葉 台), in the municipality of Meguro-ku (目 黒 区) which is mostly residential. There are a few little things left to complete. It's nice ... We have set up a home for us, for family and friends who expect us to visit. Everything basically went without much nervousness, without stress. We get used to the new environment, transportation options, get to know the area, shops, restaurants. We are planning what to do next.
 
-
-
 Our life in Japan can begin!
 
 As soon as we learn the language;)
