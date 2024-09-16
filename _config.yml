@@ -22,6 +22,7 @@ plugins:
   - jekyll-archives
   - jekyll-figure
   - jekyll-minifier
+  - jekyll-cloudinary
   - jekyll-responsive-image
   
 # Archives
@@ -56,6 +57,19 @@ lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "disabled"
+
+cloudinary:
+  cloud_name: nipponija
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1200
+      fallback_max_width: 920
+      steps: 6
+      sizes: "(max-width: 576px) 540px, (max-width: 768px) 740px, (max-width: 992px) 920px, (max-width: 1200px) 1140px, 100vw"
+      attributes: 
+        class: img-thumbnail gallery 
 
 responsive_image:
   template: _includes/responsive-image.html
